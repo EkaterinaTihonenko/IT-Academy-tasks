@@ -24,7 +24,6 @@ console.log(global, global1);
 const global3 = true;
 */
 
-//Задание
 const numberUnreadMessages = 20;
 const isRegisteredUser = true;
 const favoritGenresUser = [''];
