@@ -7,8 +7,9 @@ import { ButtonSign } from '../Button/ButtonSign';
 export const Header = () => {
    return `
    <header class="header">
+   <div class="header_wrap-nav">
        <div class="header_logo">
-         <svg class="">
+         <svg class="icon">
            <use xlink:href="../assets/images/icon.svg#icon-bootstrap"> </use>
          </svg>
        </div>
@@ -19,6 +20,7 @@ export const Header = () => {
           <a href="#">FAQs</a>
           <a href="#">About</a>
        </nav>
+       </div>
        <div class="header_search">
          ${Input}
          ${Button()}

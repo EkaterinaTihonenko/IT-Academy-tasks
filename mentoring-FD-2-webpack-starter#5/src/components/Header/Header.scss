@@ -3,11 +3,23 @@
 
 .header{
    @include mixins.flex;
+   justify-content: space-between;
    padding: 1% 5%;
    background-color: $black-color;
+   
+   &_wrap-nav{
+      @include mixins.flex;
+      
       &_logo {
-      @include mixins.svg;
+         @include mixins.svg;
+      }
+
+      .icon{
+         @include mixins.svg;
+      }
+
    }
+
    &_navigation{
 
       a{
@@ -15,6 +27,7 @@
          margin: 10px;
       }
    }
+   
    &_search{
       @include mixins.flex;
    }
