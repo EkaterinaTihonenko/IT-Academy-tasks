@@ -1,7 +1,7 @@
 import './card.scss';
 
 class Card extends HTMLElement {
-  //Обьявляем класс Component, наследуемся от базового верхнего html компонента
+  //Обьявляем класс Card, наследуемся от базового верхнего html компонента
   //disconnectedCallback() метод удаления будет вызван когда компоненту сделаем display none или удалим из дерева
   disconnectedCallback() {
     //console.log('Удалён!');
