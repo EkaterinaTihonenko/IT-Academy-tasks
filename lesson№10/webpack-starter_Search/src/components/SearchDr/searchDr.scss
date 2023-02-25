@@ -1,0 +1,10 @@
+@use '../../scss/colors.scss' as *;
+
+.container{
+   min-height: 100vh;
+   width: 768px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: -100px;
+}
