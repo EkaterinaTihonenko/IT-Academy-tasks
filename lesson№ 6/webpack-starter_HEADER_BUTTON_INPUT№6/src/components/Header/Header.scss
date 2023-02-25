@@ -1,0 +1,35 @@
+@use '../../scss/colors.scss' as *;
+@use '../../scss/mixins.scss' ;
+
+.header{
+   @include mixins.flex;
+   justify-content: space-between;
+   padding: 1% 5%;
+   background-color: $black-color;
+   
+   &_wrap-nav{
+      @include mixins.flex;
+      
+      &_logo {
+         @include mixins.svg;
+      }
+
+      .icon{
+         @include mixins.svg;
+      }
+
+   }
+
+   &_navigation{
+
+      a{
+         @include mixins.text;
+         margin: 10px;
+      }
+   }
+   
+   &_search{
+      @include mixins.flex;
+   }
+
+   }
