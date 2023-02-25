@@ -1,3 +1,3 @@
 # IT-Academy-tasks
 
-#Development of web applications using JavaScript
+# Development of web applications using JavaScript
